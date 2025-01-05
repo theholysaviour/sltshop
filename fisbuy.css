@@ -1,0 +1,256 @@
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo+Black&family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Patua+One&family=Play:wght@400;700&family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Ysabeau+SC:wght@1..1000&family=Zen+Dots&display=swap);
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #080808;
+}
+
+.line{
+    background-color: #161616;
+    padding: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.line #title{
+    color: white;
+    font-family: "Montserrat";
+    position: absolute;
+    bottom: 92.5%;
+}
+
+#typewriter{
+    color: white;
+    position: absolute;
+    bottom: 88%;
+    font-family: "Montserrat";
+    left: 2%;
+}
+
+
+#placeordertext{
+    color: #000;
+    font-family: "dm sans";
+    font-weight: 650;
+    position: absolute;
+    top: 0%;
+    left: 26.5%;
+    font-size: 60px;
+}
+
+
+.container{
+    background-color: #ffffffc5;
+    padding: 350px;
+    padding-bottom: 400px;
+    position: absolute;
+    top: 11%;
+    left: 30%;
+    border-radius: 4px;
+
+
+}
+
+#fullname{
+    position: absolute;
+    color: black;
+    font-family: "DM saNS";
+    top: 8%;
+    left: 4%;
+}
+
+#firstname{
+    position: absolute;
+    top: 17%;
+    resize: none;
+    left: 3.8%;
+    font-family: "DM Sans";
+    color: black;
+    padding-right: 100px;
+    border-radius: 4px;
+    outline: none;
+}
+
+#lastname{
+    position: absolute;
+    top: 17%;
+    resize: none;
+    left: 42%;
+    font-family: "DM Sans";
+    color: black;
+    padding-right: 100px;
+    border-radius: 4px;
+    outline: none;
+}
+
+
+#discord{
+    color: black;
+    font-family: "DM SaNS";
+    position: absolute;
+    top: 21%;
+    left: 4%;
+    font-size: 30px;
+}
+
+#discordtext{
+    position: absolute;
+    top: 30%;
+    resize: none;
+    left: 3.8%;
+    font-family: "DM Sans";
+    color: black;
+    padding-right: 100px;
+    border-radius: 4px;
+    outline: none;
+}
+
+#phone{
+    position: absolute;
+    font-family: "DM Sans";
+    font-size: 30px;
+    top: 34%;
+    left: 4%;
+}
+
+#phonenum{
+    position: absolute;
+    top: 44%;
+    resize: none;
+    left: 3.8%;
+    font-family: "DM Sans";
+    color: black;
+    padding-right: 100px;
+    border-radius: 4px;
+    outline: none;
+}
+
+#ship{
+    color: black;
+    font-family: "DM SaNS";
+    position: absolute;
+    top: 47%;
+    left: 4%;
+    font-size: 30px;
+}
+
+#city{
+    position: absolute;
+    top: 59%;
+    resize: none;
+    left: 3.8%;
+    font-family: "DM Sans";
+    color: black;
+    padding-right: 100px;
+    border-radius: 4px;
+    outline: none;
+}
+
+#region{
+    position: absolute;
+    top: 59%;
+    resize: none;
+    left: 42%;
+    font-family: "DM Sans";
+    color: black;
+    padding-right: 100px;
+    border-radius: 4px;
+    outline: none;
+}
+
+#post{
+    position: absolute;
+    top: 65.5%;
+    resize: none;
+    left: 3.8%;
+    font-family: "DM Sans";
+    color: black;
+    padding-right: 100px;
+    border-radius: 4px;
+    outline: none;
+}
+
+#country{
+    position: absolute;
+    top: 65.5%;
+    resize: none;
+    left: 42%;
+    font-family: "DM Sans";
+    color: black;
+    padding-right: 100px;
+    border-radius: 4px;
+    outline: none;
+
+}
+#cardinf{
+    position: absolute;
+    font-family: "DM Sans";
+    font-size: 30px;
+    left: 4%;
+    top: 65.7%;
+}
+
+#cardnum{
+    position: absolute;
+    top: 79%;
+    resize: none;
+    left: 3.8%;
+    font-family: "DM Sans";
+    color: black;
+    padding-right: 100px;
+    border-radius: 4px;
+    outline: none;
+}
+
+#mmyy{
+    position: absolute;
+    top: 79%;
+    resize: none;
+    left: 42%;
+    font-family: "DM Sans";
+    color: black;
+    padding-right: 100px;
+    border-radius: 4px;
+    outline: none; 
+}
+
+#cardowner{
+    position: absolute;
+    top: 85.5%;
+    resize: none;
+    left: 3.8%;
+    font-family: "DM Sans";
+    color: black;
+    padding-right: 100px;
+    border-radius: 4px;
+    outline: none;
+}
+#cvc{
+    position: absolute;
+    top: 85.5%;
+    resize: none;
+    left: 42%;
+    font-family: "DM Sans";
+    color: black;
+    padding-right: 100px;
+    border-radius: 4px;
+    outline: none; 
+}
+
+#submit{
+    color: black;
+    text-decoration: none;
+    font-family: "DM Sans";
+    padding: 9px;
+    position: absolute;
+    border: 2px solid black;
+    top: 92%;
+    left: 4%;
+    background-color: white;
+}
+
+#submit:hover{
+    background-color: #00000000;
+}

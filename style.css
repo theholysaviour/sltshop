@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo+Black&family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Patua+One&family=Play:wght@400;700&family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Ysabeau+SC:wght@1..1000&family=Zen+Dots&display=swap);
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #080808;
+}
+
+.line{
+    background-color: #161616;
+    padding: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.line #title{
+    color: white;
+    font-family: "Montserrat";
+    position: absolute;
+    bottom: 92.5%;
+}
+
+#typewriter{
+    color: white;
+    position: absolute;
+    bottom: 88%;
+    font-family: "Montserrat";
+    left: 2%;
+}
+
+.whyus #textwhyus{
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 42vw;
+    font-size: 5em;
+    font-family: "DM Sans";
+}
+
+
+.whyus #whyusimg{
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    top: 40%;
+    left: 10%;
+}
+
+#quotes{
+    color: #0051ff;
+    position: absolute;
+    font-size: 200px;
+    top: 17%;
+    left: 35%;
+}
+
+#libdesc{
+    color: white;
+    font-family: "dm sans";
+    position: absolute;
+    top: 46%;
+    left: 35%;
+    font-size: 60px;
+}
+
+#libdesc::after{
+    content: 'taken care off and cheap products';
+    position: absolute;
+    top: 110%;
+    left: 0%;
+    font-size: 60px;
+}
+
+#libdesc::before{
+    color: #424242;
+    content: '(best lib ever made)';
+    position: absolute;
+    top: 300%;
+}
+
+#button{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    text-decoration: none;
+    border-radius: 7px;
+    font-family: "DM Sans";
+    font-size: 30px;
+    top: 65%;
+    left: 80%;
+}
+
+#button:hover{
+    background-color: #d6d6d6;
+}
